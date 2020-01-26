@@ -33,10 +33,6 @@
     <ClInclude Include="Student.h" />
     <ClInclude Include="Teacher.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-    <None Include="ClassDiagram1.cd" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F7B2175A-726F-4C20-B35B-30582090B18D}</ProjectGuid>

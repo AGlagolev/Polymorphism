@@ -7,7 +7,6 @@ class Graduate
 	std::string last_name;
 	std::string first_name;
 	unsigned int age;
-
 public:
 	////////////////////////////////////////  GET&SET  //////////////////////////////////////
 	const std::string& get_last_name() const;

@@ -2,12 +2,10 @@
 
 //Teacher Defenition
 ////////////////////////////////////////  GET&SET  //////////////////////////////////////
-const std::string& Teacher::get_speciality() { return speciality; }
-unsigned int  Teacher::get_experiance() { return experience; }
-
-void  Teacher::set_speciality(const std::string& speciality) { this->speciality = speciality; }
-void  Teacher::set_experiance(unsigned int exper) { this->experience = exper; }
-
+const std::string& Teacher::get_speciality() { return speciality;}
+unsigned int  Teacher::get_experiance() { return experience;}
+void  Teacher::set_speciality(const std::string& speciality) { this->speciality = speciality;}
+void  Teacher::set_experiance(unsigned int exper) { this->experience = exper;}
 ////////////////////////////////////////  Metods  //////////////////////////////////////
 void  Teacher::print()
 {

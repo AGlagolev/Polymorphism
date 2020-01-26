@@ -1,15 +1,9 @@
 #include"Student.h"
-//Student Defenition
 ////////////////////////////////////////  GET&SET  //////////////////////////////////////
-
-	//// GETS
-const std::string  Student::get_group() { return this->group; }
-const std::string Student::get_speciality() { return specialty; }
-
-//// SETS
+const std::string  Student::get_group() { return this->group;}
+const std::string Student::get_speciality() { return specialty;}
 void Student::set_group(const std::string& group) { this->group = group; }
 void Student::set_speciality(const std::string speciality) { this->specialty = speciality; }
-
 ////////////////////////////////////////  Metods  //////////////////////////////////////
 void Student::print()
 {
@@ -18,8 +12,6 @@ void Student::print()
 	std::cout << "\nГруппа - " << get_group() << "\nСпециальность - " << get_speciality() << "\n\n";
 }
 ////////////////////////////////////////  Constructors  //////////////////////////////////////
-
-
 Student::Student
 (
 	const std::string last_name, const std::string first_name, unsigned int age,
@@ -38,4 +30,3 @@ Student::~Student() // ~+TAB создает деструктор
 {
 	std::cout << "S-Destructor " << this << std::endl;
 }
-
