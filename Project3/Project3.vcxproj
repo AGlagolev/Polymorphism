@@ -20,12 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Auxiliary.cpp" />
+    <ClCompile Include="Graduate.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Myfunc.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Auxiliary.h" />
+    <ClInclude Include="Graduate.h" />
     <ClInclude Include="Myfunc.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Teacher.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

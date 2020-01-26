@@ -1,8 +1,4 @@
-
 #include "Myfunc.h"
-
-
-
 
 //
 ////// operator <<

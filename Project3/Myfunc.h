@@ -1,7 +1,7 @@
 #pragma once
-#include <cmath>
-#include<iostream>
-#include<string>
+//#include <cmath>
+//#include<iostream>
+//#include<string>
 
 
 //double distance(const Point& A,const Point& B);
