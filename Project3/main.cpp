@@ -180,8 +180,7 @@ void main()
 	W_line();
 	for (int i = 0; i < sizeof(Group) / sizeof(Graduate*); i++) // количество элементов массива
 	{
-		Group[i]->print();
-		std::cout << std::endl;
+		Group[i]->print();		
 		W_line();
 	}
 /*************************************************************************************************/
